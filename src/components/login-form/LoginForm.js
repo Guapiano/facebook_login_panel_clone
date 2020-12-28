@@ -5,14 +5,16 @@ export default function Form(){
     return(
         <FormContainer>
             <FormInput 
+            type="email"
             placeholder="Email ou telefone"
             />
             <FormInput 
+            type="password"
             placeholder="Senha"
             />
-            <SignInButton>Entrar</SignInButton>
+            <SignInButton type="submit">Entrar</SignInButton>
             <OrText>Ou</OrText>
-            <SignUpButton>Criar sua conta</SignUpButton>
+            <SignUpButton type="submit">Criar sua conta</SignUpButton>
             <ForgotPassword 
             href="#">Esqueceu a senha?</ForgotPassword>
         </FormContainer>
