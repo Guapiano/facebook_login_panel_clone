@@ -28,8 +28,8 @@ export const FormSide = styled.div`
 `;
 
 export const NewParagraph = styled.p`
-    font-size: 14px;
     color: #737373;
+    font-size: 14px;
     max-width: 300px;
     text-align: center;
     align-self: center;

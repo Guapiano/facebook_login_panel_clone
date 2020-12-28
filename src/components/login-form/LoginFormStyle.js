@@ -30,9 +30,9 @@ export const FormInput = styled.input`
 
 export const SignInButton = styled.button`
     width: 90%;
+    color: #fff;
     height: 50px;
     border: none;
-    color: #fff;
     font-weight: bold;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -45,9 +45,9 @@ export const OrText = styled.p`
 
 export const SignUpButton = styled.button`
     width: 90%;
+    color: #fff;
     height: 50px;
     border: none;
-    color: #fff;
     font-weight: bold;
     border-radius: 8px;
     margin-bottom: 25px;
