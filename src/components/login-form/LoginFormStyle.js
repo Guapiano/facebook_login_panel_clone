@@ -11,6 +11,10 @@ export const FormContainer = styled.div`
     justify-content: center;
     background-color: #fff;
     box-shadow: 0px 0px 10px 0.5px #ebebeb;
+    @media(max-width: 380px){
+        width: 90%;
+        height: 350px;
+    }
 `;
 
 export const FormInput = styled.input`

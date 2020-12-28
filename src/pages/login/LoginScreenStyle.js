@@ -14,17 +14,42 @@ export const LogoAndTextSide = styled.div``;
 export const Logo = styled.img`
     width: 220px;
     margin-bottom: 15px;
+    @media(max-width: 380px){
+        display: none;
+    }
+    @media(max-width: 1010px){
+        display: none;
+    }
 `;
 
 export const FacebookParagraph = styled.p`
     font-size: 18px;
     max-width: 400px;
     text-align: justify;
+    @media(max-width: 380px){
+        display: none;
+    }
+    @media(max-width: 1010px){
+        display: none;
+    }
 `;
 
 export const FormSide = styled.div`
     display: flex;
     flex-direction: column;
+    @media(max-width: 380px){
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    @media(max-width: 1010px){
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 `;
 
 export const NewParagraph = styled.p`
