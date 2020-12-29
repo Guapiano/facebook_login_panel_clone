@@ -4,6 +4,7 @@ import Form from '../../components/login-form/LoginForm';
 import {Container,Logo,FacebookParagraph,LogoAndTextSide,FormSide, NewParagraph, Bold} from './LoginScreenStyle';
 
 export default function Login(){
+
     return(
         <Container>
             <LogoAndTextSide>
